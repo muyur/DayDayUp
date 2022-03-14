@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f5f7;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+.logo {
+    float: left;
+    width: 196px;
+    height: 42px; 
+}
+.nav {
+    float: left;
+    height: 42px;
+    margin-left: 55px;
+}
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 8px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 80px;
+}
+.search input[type="text"] {
+    float: left;
+    width: 342px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 18px;
+}
+.search input[type="button"] {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-image: url(/images/search.png);
+    /* 去掉按钮默认边框 */
+    border: 0;
+
+}
+.user {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+    height: 42px;
+    padding-top: 5px;
+}
+.user img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner .w {
+    height: 420px;
+    background: url(/images/banner_w.png) no-repeat top center;
+}
+.subnav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+.subnav ul {
+    padding-top: 13px;
+}
+.subnav ul li {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+}
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+.subnav ul li a span {
+    float: right;
+}
+.subnav ul li a:hover {
+    color: #00b4ff;
+}
+.course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.course h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+.history {
+    padding: 0 20px;
+}
+.history ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.history ul li h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.history ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.history a {
+    display: block;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.goods {
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 8px;
+    line-height: 60px; 
+}
+.goods h3 {
+    float: left;
+    margin-left: 34px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+.goods ul {
+    float: left;
+    margin-left: 32px;
+}
+.goods ul li {
+    float: left;
+}
+.goods ul li a {
+    padding: 0 35px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #bfbfbf;
+}
+.goods ul li a:hover {
+    color: #00a4ff;
+    font-size: 20px;
+}
+.goods .mod {
+    float: right;
+    margin-right: 26px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+.box {
+    height: 615px;
+    /* 不写高度的话，需要清除浮动 */
+    margin-top: 35px;
+}
+.box_h {
+    height: 42px;
+}
+.box_h h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.box_h a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 10px;
+    margin-right: 27px;
+}
+.box_b ul {
+    width: 1215px;
+}
+.box_b ul li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+}
+/* .box_b ul .last {
+    margin-right: 0;
+} */
+.box_b ul li img {
+    width: 100%;
+}
+.box_b ul li h4 {
+    margin: 25px 20px 20px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #050505;
+}
+.box_b ul li .info {
+    margin-left: 24px;
+    font-size: 12px;
+    color: #999999;
+}
+.box_b ul li .info span {
+    color: #ff7c2d;
+}
+.footer {
+    height: 417px;
+    background-color: #fff;
+}
+.footer .w {
+    padding-top: 33px;
+}
+.footer .w .left {
+    float: left;
+    padding-left: 21px;
+}
+.footer .w .left p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    width: 432px;
+}
+.footer .w .left .dlapp {
+    display: block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+.footer .w .right {
+    float: right;
+}
+.footer .w .right dl {
+    float: left;
+    margin-left: 120px;
+}
+.footer .w .right dl dt {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.footer .w .right dl dd a {
+    font-size: 12px;
+    color: #333333;
+}
+.footer .w .right dl dd a:hover {
+    color: #00a4ff;
+}
